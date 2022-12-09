@@ -14,12 +14,12 @@
         const Find_Prod = (array, N) => 
         {
             let product = 1;
-            for(let i = 0; i<N; i++) {
-              product = product * array[i];
+            for(let i = 0; i<(N); i++) {
+              product =( product * array[i]);
             }
             
             return product;
-        };
+        }
     </pre>
     <p>2.Write a program which takes an array as input from the user and find out the sum of the array elements..</p>
     <pre>
@@ -40,7 +40,7 @@
         const findCount = (N, K, Arr) => 
         {
             let count = 0;
-            for(let i = 0;i<N; i++) {
+            for(let i = 0;i<(N); i++) {
                 if(Arr[i] === K) {
                     count++;
                 }
@@ -153,7 +153,7 @@
             let count = 0;
               for(let i = 0;i<(arr.length)-M+1;i++) {
                 let sum = 0
-                for(let j = i;j<M+i;j++){
+                for(let j = i;j<(M+i);j++) {
                   sum = sum + arr[j];
                  
                 }
